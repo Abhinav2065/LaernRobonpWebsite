@@ -307,8 +307,8 @@ const Footer = () => {
           <div className="cta-content">
             <h3>Support Our Mission</h3>
             <p>Your donation helps us provide free STEM education to underprivileged youth across Nepal</p>
-            <a
-              href="/donate/#donation" 
+            <Link
+              to="/donate/#donation" 
               className="donate-btn"
               rel="noopener noreferrer"
             >
@@ -317,7 +317,7 @@ const Footer = () => {
                 <line x1="5" y1="12" x2="19" y2="12"></line>
                 <polyline points="12 5 19 12 12 19"></polyline>
               </svg>
-            </a>
+            </Link>
           </div>
         </div>
 
