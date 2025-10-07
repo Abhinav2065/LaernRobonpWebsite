@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import Impact from './components/Impact'
+import Transparency from './components/Transparency'
 import "./index.css"
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
               <>
               <Hero/>
               <Impact/>
+              <Transparency/>
               </>
             }>
 
