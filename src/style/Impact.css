@@ -1,0 +1,53 @@
+.impact {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; /* Increased height for better balance */
+  padding: 60px 17%;
+  background: #051014;
+  color: #CDDDDD;
+}
+
+.text {
+  flex: 1;
+  text-align: left;
+  padding-right: 60px;
+}
+
+.text h3 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.text p {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.stats {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.stat {
+  text-align: left;
+  padding: 25px;
+  background: rgba(205, 221, 221, 0.1);
+  border-radius: 10px;
+  border-left: 4px solid #CDDDDD;
+}
+
+.stat h5 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.stat p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0;
+}
