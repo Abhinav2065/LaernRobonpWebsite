@@ -18,12 +18,24 @@ import CorporatePartnerships from './components/CorporatePartnerships'
 import ContactPage from './components/ContactPage'
 import ScrollToTop from './components/ScroolToTop'
 import Navbar from './components/Navbar'
+import "./index.css"
 
 function App() {
   return (
     <Router>
       <div className="App">
         <Navbar />
+
+        <Routes>
+            <Route path="/" element={
+              <>
+              <Hero/>
+              </>
+            }>
+
+            </Route>
+
+        </Routes>
         {/* <ScrollToTop />
         <Routes>
           <Route path="/" element={
