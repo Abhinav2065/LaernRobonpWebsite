@@ -1,0 +1,42 @@
+.footer {
+    background: #CDDDDD;
+    color: #2E2F2F;  
+    padding: 10px 7%;
+    padding-top: 3rem;  
+    padding-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Change to flex-start for better alignment */
+}
+
+.first {
+    text-align: left;
+    width: 20vw;
+}
+
+.first p {
+    font-size: 16px;
+}
+
+.logo  {
+    height: 10vh;
+    width: 10vh;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Makes it vertical */
+    gap: 10px; /* Adds space between list items */
+}
+
+.list li {
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.list li:hover {
+    color: #051014; /* Darker color on hover */
+}
