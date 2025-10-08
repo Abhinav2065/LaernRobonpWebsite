@@ -9,7 +9,7 @@ const Transparency = () => {
             <div className="text">
                 <h3>We are Financially Transparent!</h3>
                 <p>Each and Every one of our financial transaction is out there acessable for everyone to see. We believe in full transparency.</p>
-                <div className="button"><Link>Check It Yourself!</Link></div>
+                <Link className='button' to="https://hcb.hackclub.com/learn-robo-nepal/transactions">Check It Yourself!</Link>
             </div>
             <div className="image">
                 <img src="transparency.png" alt="" />

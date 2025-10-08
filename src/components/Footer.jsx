@@ -1,5 +1,9 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import "../style/Footer.css"
+
+
+
 
 
 const Footer = () => {
@@ -38,9 +42,9 @@ const Footer = () => {
                 </li> 
             </ul>
 
-            <div className="donate">
+            <Link className="donate" to="/donate"> 
                 Donate Us
-            </div>
+            </Link>
         </div>
     </div>
   )

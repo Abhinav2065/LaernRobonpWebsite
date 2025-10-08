@@ -22,19 +22,21 @@ const Navbar = () => {
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, []); // Empty dependency array means this runs once on mount
+  }, []);
 
   return (
     <div>
         <div className="navbar" id="mainNavbar">
-            <Link to="/"><img src="logo.png" alt="" className="logo"/> </Link>
+            <Link to="/" className="logo-link">
+              <img src="logo.png" alt="" className="logo"/>
+            </Link>
             <ul>
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/about">About</Link></li>
                 <li><Link to="/team">Team</Link></li>
                 <li><Link to="/contact">Contact</Link></li>
             </ul>
-            <div className="donate"><Link to="/donate">Donate Us</Link></div>
+            <Link to="/donate" className="donate">Donate Us</Link>
         </div>
     </div>
   )

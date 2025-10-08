@@ -12,7 +12,7 @@ const Events = () => {
                 <h4>IronByte</h4>
                 <p>First hardware hackathon for teens in Nepal.</p>
                 <div className="date"><p>Coming Soon</p></div>
-                <div className="btn"><Link to="https://www.ironbyte.dev/">More</Link></div>
+                <Link to="https://www.ironbyte.dev/" className='btn'>More</Link>
             </div>
         </div>
     </div>
