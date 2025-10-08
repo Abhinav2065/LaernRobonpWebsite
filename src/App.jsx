@@ -4,6 +4,8 @@ import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import Impact from './components/Impact'
 import Transparency from './components/Transparency'
+import Events from './components/Events'
+import Footer from './components/Footer'
 import "./index.css"
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
               <Hero/>
               <Impact/>
               <Transparency/>
+              <Events/>
+              <Footer/>
               </>
             }>
 
