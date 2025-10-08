@@ -9,7 +9,9 @@ const About = () => {
         <div className="about-hero">
 
             <h2>About Us</h2>
-            <p>Learn Robo Nepal is a non-profit, youth-led initiative founded on the belief that Nepal's youth possess immense potential to shape the nation's future. We are a collective of passionate students, engineers, and educators united by a common goal: to bridge the digital divide and foster a culture of scientific curiosity and technological creativity across the country.</p>
+            <p>Learn Robo Nepal is a non-profit, youth-led initiative founded on the belief that Nepal's youth possess immense potential to shape the nation's future. 
+                We are a collective of passionate students, engineers, and educators united by a common goal: to bridge the digital divide and foster a culture of scientific 
+                curiosity and technological creativity across the country.</p>
         </div>
 
  <div class="stats-container">

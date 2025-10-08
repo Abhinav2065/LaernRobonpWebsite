@@ -7,6 +7,7 @@ import Transparency from './components/Transparency'
 import Events from './components/Events'
 import Footer from './components/Footer'
 import About from './components/About'
+import Partner from './components/Partner'
 import "./index.css"
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
               <Hero/>
               <Impact/>
               <Transparency/>
+              <Partner/>
               <Events/>
               </>
             }>
@@ -28,6 +30,7 @@ function App() {
             <Route path="/about" element={
               <>
               <About/>
+              <Partner/>
               </>
             }>
             </Route>
