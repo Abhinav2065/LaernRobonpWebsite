@@ -16,27 +16,59 @@ const Footer = () => {
             </div>            
             <ul>
                 <li>
+                    <Link to="/">
                     <ul className='list'>
                         <li>
                             <h4>Home</h4>
                         </li>
                         <li>
-                            Impact
-                        </li>
-                        <li>
                             Events
                         </li>
                     </ul>
+                    </Link>
                 </li>
                 <li>
-                    <h4>About</h4>
+                    <Link to="/about">
+                    <ul className='list'>
+                        <li>
+                            <h4>About</h4>
+                        </li>
+                        <li>
+                            Partners
+                        </li>
+                    </ul>
+                    </Link>
                 </li>
                 <li>
-                    <h4>Team</h4>
+                    <Link to="/team">
+                    <ul className='list'>
+                        <li>
+                            <h4>Team</h4>
+                        </li>
+                        <li>
+                            Our Team
+                        </li>
+                        <li>
+                            Contact
+                        </li>
+                    </ul>
+                    </Link>
                 </li>
                 <li>
-                    <h4>Contact</h4>
-                </li>
+                    <Link to="/contact">
+                    <ul className='list'>
+                        <li>
+                            <h4>Contact</h4>
+                        </li>
+                        <li>
+                            Contact
+                        </li>
+                        <li>
+                            Email
+                        </li>
+                    </ul>   
+                    </Link>             
+                    </li>
                 <li>
                     <h4>Join Us</h4>
                 </li> 
