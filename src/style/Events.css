@@ -93,3 +93,9 @@
     box-shadow: 0 5px 15px rgba(172, 189, 186, 0.4);
     background: linear-gradient(135deg, #9fadab 0%, #ACBDBA 100%);
 }
+
+.btn a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}

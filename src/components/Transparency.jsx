@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import "../style/Transparency.css"
 
 const Transparency = () => {
@@ -8,7 +9,7 @@ const Transparency = () => {
             <div className="text">
                 <h3>We are Financially Transparent!</h3>
                 <p>Each and Every one of our financial transaction is out there acessable for everyone to see. We believe in full transparency.</p>
-                <div className="button">Check it Yourself!</div>
+                <div className="button"><Link>Check It Yourself!</Link></div>
             </div>
             <div className="image">
                 <img src="transparency.png" alt="" />

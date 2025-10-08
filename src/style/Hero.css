@@ -45,3 +45,10 @@
     background-color: #9fadab;
   }
 }
+
+
+.more a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
