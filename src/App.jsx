@@ -64,3 +64,6 @@ function App() {
 }
 
 export default App
+
+
+// https://coolors.co/acbdba-cddddd-a599b5-2e2f2f-051014
