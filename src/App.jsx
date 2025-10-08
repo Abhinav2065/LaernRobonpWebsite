@@ -8,6 +8,7 @@ import Events from './components/Events'
 import Footer from './components/Footer'
 import About from './components/About'
 import Partner from './components/Partner'
+import Team from './components/Team'
 import "./index.css"
 
 function App() {
@@ -31,6 +32,12 @@ function App() {
               <>
               <About/>
               <Partner/>
+              </>
+            }>
+            </Route>
+            <Route path="/team" element={
+              <>
+              <Team/>
               </>
             }>
             </Route>
