@@ -6,6 +6,7 @@ import Impact from './components/Impact'
 import Transparency from './components/Transparency'
 import Events from './components/Events'
 import Footer from './components/Footer'
+import About from './components/About'
 import "./index.css"
 
 function App() {
@@ -21,14 +22,17 @@ function App() {
               <Impact/>
               <Transparency/>
               <Events/>
-              <Footer/>
               </>
             }>
-
             </Route>
-
+            <Route path="/about" element={
+              <>
+              <About/>
+              </>
+            }>
+            </Route>
         </Routes>
-
+          <Footer/>
       </div>
     </Router>
   )
