@@ -58,3 +58,9 @@ ul li {
     background-color: #9fadab;
   }
 }
+
+.navbar a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}

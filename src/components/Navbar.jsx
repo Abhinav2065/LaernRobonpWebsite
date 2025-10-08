@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import { Link } from 'react-router-dom';
 import "../style/Navbar.css"
 
 const Navbar = () => {
@@ -26,12 +27,12 @@ const Navbar = () => {
   return (
     <div>
         <div className="navbar" id="mainNavbar">
-            <img src="logo.png" alt="" className="logo"/>
+            <Link to="/"><img src="logo.png" alt="" className="logo"/> </Link>
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Team</li>
-                <li>Contact</li>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/about">About</Link></li>
+                <li><Link to="/team">Team</Link></li>
+                <li><Link to="/contact">Contact</Link></li>
             </ul>
             <div className="donate">Donate Us</div>
         </div>
