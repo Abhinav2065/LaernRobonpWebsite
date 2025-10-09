@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 60vh;
+  height: 40vh;
   padding: 20px;
   background: #051014;
   color: #CDDDDD;
@@ -25,121 +25,61 @@
   max-width: 800px;
 }
 
-.donate-selection {
+
+.donate-selection h1{
   text-align: center;
-  padding: 4rem 2rem;
-  background: #051014;
-  color: #CDDDDD;
+  padding-bottom: 50px;
 }
 
-.donate-selection h1 {
-  font-size: 36px;
-  margin-bottom: 3rem;
-  color: #CDDDDD;
-}
 
 .selection {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 2rem 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 100px;
 }
 
-.package {
-  background: rgba(172, 189, 186, 0.1);
-  border-radius: 15px;
-  padding: 2rem;
-  text-align: center;
-  border: 1px solid rgba(172, 189, 186, 0.2);
-  transition: all 0.3s ease;
+.selection .package{
   cursor: pointer;
-  backdrop-filter: blur(10px);
+  padding: 40px;
+  background-color: rgba(172, 189, 186, 0.445);   /* Hex to rbg and transparent so rgba */
+  height: 200px; 
+  width: 400px;
+  border: 10px solid #051014;
+  border-radius: 20px;
+  transition: transform 0.4s ease;
 }
 
-.package:hover {
-  transform: translateY(-5px);
-  border-color: rgba(172, 189, 186, 0.4);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-}
 
 .package h3 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-  color: #CDDDDD;
-  background: linear-gradient(135deg, #ACBDBA 0%, #CDDDDD 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  font-size: 27px;
 }
 
 .package p {
-  font-size: 1.1rem;
-  color: #ACBDBA;
-  line-height: 1.5;
+  font-size: 16px;  
 }
 
-.custom-amount {
-  grid-column: 1 / -1;
-  background: rgba(172, 189, 186, 0.15);
-  border-radius: 15px;
-  padding: 2.5rem;
-  text-align: center;
-  border: 2px dashed rgba(172, 189, 186, 0.3);
-  transition: all 0.3s ease;
-}
-
-.custom-amount:hover {
-  border-color: rgba(172, 189, 186, 0.6);
-  background: rgba(172, 189, 186, 0.2);
-}
-
-.custom-input {
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  align-items: center;
-  margin-top: 1.5rem;
-  flex-wrap: wrap;
-}
 
 .custom-input input {
-  padding: 12px 16px;
-  border: 1px solid rgba(172, 189, 186, 0.3);
-  border-radius: 8px;
-  background: rgba(172, 189, 186, 0.1);
-  color: #CDDDDD;
-  font-size: 16px;
-  width: 150px;
-  text-align: center;
-}
-
-.custom-input input:focus {
-  outline: none;
-  border-color: #ACBDBA;
+  background-color: #ACBDBA;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 5px;
+  margin-right: 10px;
+  padding-left: 20px;
 }
 
 .custom-donate-btn {
   background-color: #ACBDBA;
-  color: #2E2F2F;
-  padding: 12px 24px;
   border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: bold;
-  transition: all 0.3s ease;
+  height: 24px;
+  width: 70px;
+  border-radius: 5px;
+  color: #051014;
 }
 
-.custom-donate-btn:hover {
-  background-color: #9fadab;
-  transform: translateY(-2px);
+.selection .package:hover {
+  transform: scale(1.05);
 }
-
-.custom-donate-btn:disabled {
-  background-color: #6b7a78;
-  cursor: not-allowed;
-  transform: none;
-}
-

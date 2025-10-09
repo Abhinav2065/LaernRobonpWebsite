@@ -61,8 +61,7 @@ const Donate = () => {
                     <p>Choose your own donation amount</p>
                     <div className="custom-input">
                         <input 
-                            type="number"
-                            placeholder="Enter amount"
+                            placeholder=" Enter amount"
                             value={customAmount}
                             onChange={(e) => setCustomAmount(e.target.value)}
                             onKeyPress={handleKeyPress}
