@@ -143,27 +143,3 @@
   transform: none;
 }
 
-/* Responsive design */
-@media (max-width: 768px) {
-  .donate-hero h1 {
-    font-size: 36px;
-  }
-  
-  .donate-hero p {
-    font-size: 18px;
-  }
-  
-  .selection {
-    grid-template-columns: 1fr;
-    padding: 0 1rem 2rem;
-  }
-  
-  .custom-input {
-    flex-direction: column;
-  }
-  
-  .custom-input input {
-    width: 100%;
-    max-width: 200px;
-  }
-}

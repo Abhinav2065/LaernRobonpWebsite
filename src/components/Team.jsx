@@ -59,7 +59,7 @@ const Team = () => {
                     <div className="card">
                         <img src="prajwal.jpg" alt="Prajwal" />
                         <div className="container">
-                            <h2>Prajwal Chhetri</h2>
+                            <h2>Prajwal Chaulagain</h2>
                             <p className="title">Social Media and Marketing Manager</p>
                             <p>official.prajwolpc@gmail.com</p>
                             <p><a href="mailto:official.prajwolpc@gmail.com" className="button">Contact</a></p>

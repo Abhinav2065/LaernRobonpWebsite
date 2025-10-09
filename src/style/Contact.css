@@ -1,21 +1,20 @@
 .contact {
   background: #051014;
   color: #CDDDDD;
-  padding: 10px 15%; /* Reduced side padding for more width */
+  padding: 10px 10%; 
   padding-top: 12rem;
-  min-height: 100vh;
+  min-height: 120vh;
 }
 
 .contact h2 {
   font-size: 36px;
   margin-bottom: 20px;
-  text-align: center;
+
 }
 
 .contact > p {
   font-size: 18px;
   margin-bottom: 10px;
-  max-width: 100%; /* Remove width restriction */
 }
 
 .email, .phone {
@@ -27,17 +26,12 @@
 
 .contact-content {
   display: flex;
-  gap: 3rem; /* Reduced gap for more content space */
   margin-top: 6rem;
   align-items: flex-start;
-  width: 100%; /* Take full width */
-  max-width: none; /* Remove max-width restriction */
 }
 
 .contact-info {
   flex: 1;
-  max-width: none; /* Remove max-width restriction */
-  min-width: 45%; /* Ensure it takes substantial space */
 }
 
 .contact-info p {
@@ -47,13 +41,9 @@
 
 .contact-form {
   flex: 1;
-  max-width: none; /* Remove max-width restriction */
-  min-width: 45%; /* Ensure it takes substantial space */
 }
 
-.container {
-  width: 100%;
-}
+
 
 form {
   display: flex;
@@ -72,9 +62,8 @@ label {
 
 input[type="text"],
 textarea {
-  width: 100%;
   padding: 12px;
-  border: 1px solid rgba(172, 189, 186, 0.3);
+  border: 1px trans #2E2F2F;
   border-radius: 5px;
   background: rgba(172, 189, 186, 0.1);
   color: #CDDDDD;
@@ -82,17 +71,8 @@ textarea {
   transition: all 0.3s ease;
 }
 
-input[type="text"]:focus,
-textarea:focus {
-  outline: none;
-  border-color: #ACBDBA;
-  background: rgba(172, 189, 186, 0.15);
-}
 
-input[type="text"]::placeholder,
-textarea::placeholder {
-  color: #9fadab;
-}
+
 
 textarea {
   resize: vertical;
@@ -105,39 +85,13 @@ input[type="submit"] {
   color: #2E2F2F;
   padding: 15px 30px;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
-  transition: all 0.3s ease;
   margin-top: 10px;
-  width: auto; /* Let button size naturally */
-  min-width: 150px;
 }
 
-input[type="submit"]:hover {
-  background-color: #9fadab;
-  transform: translateY(-2px);
-}
-
-/* Responsive design */
-@media (max-width: 768px) {
-  .contact-content {
-    flex-direction: column;
-    gap: 2rem;
-  }
-  
-  .contact-info,
-  .contact-form {
-    max-width: 100%;
-    min-width: auto; /* Reset min-width on mobile */
-  }
-  
-  .contact {
-    padding: 10px 3%; /* Even less padding on mobile */
-    padding-top: 10rem;
-  }
-}
 
 .email {
     text-decoration: none;
