@@ -38,11 +38,16 @@
 
 .stat {
   width: 400px;
-  height: 150px;
-  background-color: #2E2F2F;
-  padding: 30px;
-  border: 10px solid #051014;
+  height: 200px;
+  background-color: rgba(46,47,47,0.38);
+  padding: 50px;
+  border: 15px solid #051014;
   border-radius: 30px;
+  transition: transform 0.3s ease;
+}
+
+.stat:hover {
+  transform: scale(1.05);
 }
 
 .stat h5 {

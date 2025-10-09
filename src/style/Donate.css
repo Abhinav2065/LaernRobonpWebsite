@@ -43,7 +43,7 @@
 .selection .package{
   cursor: pointer;
   padding: 40px;
-  background-color: rgba(172, 189, 186, 0.445);   /* Hex to rbg and transparent so rgba */
+  background-color: rgba(172, 189, 186, 0.145);   /* Hex to rbg and transparent so rgba */
   height: 200px; 
   width: 400px;
   border: 10px solid #051014;
