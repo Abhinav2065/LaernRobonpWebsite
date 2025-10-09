@@ -18,8 +18,8 @@
 
 .about-hero p {
   margin-bottom: 30px;
-  max-width: 90vw;
-  font-size: 22px;
+  max-width: 65vw;
+  font-size: 26px;
   color: #CDDDDD;
   text-align: left;
 }
@@ -59,112 +59,8 @@
     margin: 0.75rem 0 0 0;
 }
 
-.stats-container {
-    margin-top: 2.5rem;
-    padding-bottom: 0.25rem;
-    margin-bottom: 8rem;
-}
 
-.stats-container h3 {
-    font-size: 30px;
+.stats-container h3{
     text-align: center;
-}
-
-.stats-wrapper {
-    position: relative;
-}
-
-.stats-background {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    height: 50%;
-    background-color: #051014;
-}
-
-.stats-inner {
-    max-width: 56rem;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.stats-grid {
-    border-radius: 0.5rem;
-    background-color: rgba(172, 189, 186, 0.1);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    border: 1px solid rgba(172, 189, 186, 0.2);
-    backdrop-filter: blur(10px);
-}
-
-.stat-item {
-    display: flex;
-    flex-direction: column;
-    border-bottom: 1px solid rgba(172, 189, 186, 0.3);
-    padding: 1.5rem;
-    text-align: center;
-}
-
-.stat-item.middle {
-    border-left: 1px solid rgba(172, 189, 186, 0.3);
-    border-right: 1px solid rgba(172, 189, 186, 0.3);
-    border-top: 1px solid rgba(172, 189, 186, 0.3);
-    border-bottom: 1px solid rgba(172, 189, 186, 0.3);
-}
-
-.stat-label {
-    order: 2;
-    margin-top: 0.5rem;
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-    font-weight: 500;
-    color: #ACBDBA;
-}
-
-.stat-number {
-    order: 1;
-    font-size: 3rem;
-    font-weight: 800;
-    color: #CDDDDD;
-    margin: 0;
-    background: linear-gradient(135deg, #ACBDBA 0%, #CDDDDD 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
-
-/* Remove borders for larger screens */
-@media (min-width: 640px) {
-    .stat-item {
-        border-bottom: none;
-    }
-    
-    .stat-item:not(:last-child) {
-        border-right: 1px solid rgba(172, 189, 186, 0.3);
-    }
-    
-    .stat-item.middle {
-        border-left: none;
-        border-right: none;
-        border-top: none;
-        border-bottom: none;
-    }
-}
-
-/* Responsive design for mobile */
-@media (max-width: 639px) {
-    .stats-grid {
-        grid-template-columns: 1fr;
-    }
-    
-    .stat-item:not(:last-child) {
-        border-bottom: 1px solid rgba(172, 189, 186, 0.3);
-    }
-    
-    .stat-item.middle {
-        border-left: none;
-        border-right: none;
-    }
+    font-size: 36px;
 }

@@ -16,31 +16,20 @@ const About = () => {
 
  <div class="stats-container">
     <h3>Our Impact</h3>
-        <div class="stats-wrapper">
-            <div class="stats-background"></div>
-            <div class="container">
-                <div class="stats-inner">
-                    <dl class="stats-grid">
-                        <div class="stat-item">
-                            <dt class="stat-label">
-                                Students Served
-                            </dt>
-                            <dd class="stat-number">50+</dd>
-                        </div>
-                        <div class="stat-item">
-                            <dt class="stat-label">
-                                Workshops
-                            </dt>
-                            <dd class="stat-number">2</dd>
-                        </div>
-                        
-                        <div class="stat-item">
-                            <dt class="stat-label">
-                                Districts
-                            </dt>
-                            <dd class="stat-number">1</dd>
-                        </div>
-                    </dl>
+                <div className="impact">
+
+            <div className="stats">
+                <div className="stat">
+                    <h5>50+</h5>
+                    <p>Students Reached</p>
+                </div>
+                <div className="stat">
+                    <h5>2</h5>
+                    <p>Workshops conducted</p>
+                </div>
+                <div className="stat">
+                    <h5>1</h5>
+                    <p>District Reached</p>
                 </div>
             </div>
         </div>
