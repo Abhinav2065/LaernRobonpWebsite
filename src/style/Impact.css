@@ -1,11 +1,13 @@
 .impact {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 80vh;
-  padding: 60px 17%;
+  text-align: center;
+  height: 40vh;
   background: #051014;
   color: #CDDDDD;
+  text-align: center;
 }
 
 .text {
