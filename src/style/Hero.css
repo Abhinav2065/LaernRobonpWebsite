@@ -44,3 +44,11 @@
   transform: scale(1.04);
   background-color: #9fadab;
 }
+
+
+@media screen and (max-width: 1060px){
+  .hero h1{
+    font-size: 40px;
+  }
+  
+}
